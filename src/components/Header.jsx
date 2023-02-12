@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <div>
-       <header className='flex justify-between items-center px-5 max-w-6xl mx-auto py-4 '>
+       <header className='flex justify-between items-center px-5 max-w-7xl mx-auto py-4 '>
             <div>
             <img className='h-5 cursor-pointer' src="https://static.rdc.moveaws.com/images/logos/rdc-logo-default.svg" alt="logo" onClick={()=>navigate('/')}/>
             </div >
